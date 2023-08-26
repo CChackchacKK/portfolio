@@ -1,0 +1,24 @@
+body {
+    width: 100%;
+    height: 100%;
+
+}
+
+
+.telo_2 {
+    background-image:url('hero-sushi-005.png');
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat ;
+    background-size: cover;
+    text-align: center;
+    font-size: 0;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.koichi_position {
+   
+    margin: auto;
+}
