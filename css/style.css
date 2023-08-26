@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 2000px;
+}
+.telo {
+    background-image:url('fon.jpg');
+    height: 100vh;
+    background-repeat: no-repeat ;
+    background-size: cover;
+    background-attachment: fixed;
+    border-bottom: 10px solid;
+    
+
+}
+.telo_2 {
+    background-image:url('hero-sushi-005.png');
+    height: 100vh;
+    background-repeat: no-repeat ;
+    background-size: cover;
+    text-align: center;
+    font-size: 0;
+    
+}
+
+.telo_2::before {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+}
+
+
+#Shapochka_saita {
+    list-style: none;
+    text-align: center;
+    height: 15vh;
+    line-height: 15vh;
+    border: 2px solid;
+    width: 80%;
+    margin-left: 10%;
+    border-top:  0;
+    background: url('drevnij-kitaj-fon-dlja-prezentacii-360 (2).png') no-repeat;
+    background-size: cover;
+    border-radius: 0 0 30px 30px;
+    position: fixed;
+    z-index: 2;
+    
+    
+
+    
+    
+    
+
+}
+
+
+.izob_kartina {
+    height: 7vh;
+    position: fixed;
+    margin-left: 80%;
+    z-index: 3;
+    top: 30px;
+    
+}
+
+.korzina  img:hover {
+    border: 2px solid rgb(50, 4, 4);
+    border-radius: 10px;
+    
+    
+} 
+@import url('https://fonts.googleapis.com/css2?family=Preahvihear&family=Sansita+Swashed:wght@300;400;500;600;700;800;900&display=swap');
+
+#Shapochka_saita li {
+    display: inline;
+    border: 2px solid #B9B6B4;
+    padding: 20px;
+    margin-left: 40px;
+    border-radius: 30px;
+    background-color: #D3C6BD;
+    font-family: 'Preahvihear', sans-serif;
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 30px;
+    
+    
+   
+    
+}
+.Zagolovok{
+    text-decoration: none;
+    color: black;
+}
+.coffee {
+    
+    background-image: url('../css/logotipik.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 110px;
+    height: 110px;
+    position: fixed;
+    top: 20px;
+    margin-left: 70%;
+    z-index: 2;  
+    
+}
+.coffee:hover {
+    border: 2px solid rgb(118, 146, 104);
+    border-radius: 90px;
+}
+
+#Shapochka_saita li:hover {
+    color: rgb(118, 146, 104);
+    border-color: rgb(118, 146, 104);
+
+}
+
+
+
+
+
+#Sushi {
+    text-align: center;
+    position: relative;
+    bottom: -400px;  
+}
+.all_element:not(.element_1) {
+    margin-left: 14%;
+}
+.izob_1 {
+    position: relative;
+    right: 600px;
+    top:-210px;
+    z-index: 1;
+    
+}
+.izob_2 {
+    position: relative;
+    top:-410px;
+    left:-140px;
+    z-index: 1;   
+} 
+
+.izob_3 {
+    position: relative;
+    left: 280px;
+    bottom: 630px;
+    z-index: 1;
+}
+.izob_4 {
+    position: relative;
+    right: -1470px;
+    top: -450px;
+}
+span a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 20px;
+}
+.fon_footera { 
+    height: 30vh;
+    width: 100%;
+    background-image: url('../css/1666315840_2-mykaleidoscope-ru-p-otkritki-yaponskie-oboi-2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+/* .Contacti {
+    height: 20vh;
+    width: 100%;
+    background-image: url('../css/1666315840_2-mykaleidoscope-ru-p-otkritki-yaponskie-oboi-2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+.logotipick {
+    height: 10vh;
+    width: 15%;
+    background: url('../css/chin_huan.PNG') no-repeat center center;
+    background-size: cover;
+    margin-left: 45%;
+    position: relative;
+    top: -110px;
+
+}
+
+.text_footera {
+    line-height: 6vh;
+    margin-left: 5%;
+    position: relative;
+    bottom:-50px
+}
+.vk {
+    display: block;
+    height: 50px;
+    width: 50px;
+    background: url('../css/vk.PNG');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 20%;
+    
+    
+}
+
+.kartin_TG {
+    height: 50px;
+    width: 50px;
+    margin-top: 20%;
+    
+}
+.cotseti {
+    float: right;
+    position: relative;
+    left: -300px;
+    bottom: -50px; 
+    z-index: 2;
+    
+}
+
+#tgg:hover {
+    border: 2px solid green;
+    
+}
+#vkk:hover {
+    border: 2px solid green;
+    
+}
+
+.koichi_position {
+    display: inline-block;
+    vertical-align: middle;
+   
+}
+
+
+
+.nomerok {
+
+    height: 70px;
+    width: 70px;
+    border-radius: 70px;
+    text-align: center;
+    
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    border: 2px solid transparent;
+    
+}
+.nymeracia_2 {
+   
+    font-size: 60px;
+    color: aliceblue;
+    text-decoration: none;
+    
+}
+.nomerok:hover {
+    border: 2px solid white;
+    background-color: rgb(88, 145, 88);
+}
+
+
